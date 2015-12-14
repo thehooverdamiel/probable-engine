@@ -1,0 +1,12 @@
+
+.global-container {
+	margin:auto;
+	max-width:1199px;
+	padding:50px;
+	border: 1px solid black;
+}
+.page-content {
+	margin-top:50px;
+	border:1px solid black;
+	width:100%;
+}
