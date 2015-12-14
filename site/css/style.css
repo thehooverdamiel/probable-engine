@@ -1,12 +1,60 @@
+@font-face { font-family: OpenSans; src: url('../fonts/opensans/OpenSans-Regular.ttf'); } 
+@font-face { font-family: OpenSans; font-weight: bold; src: url('../fonts/opensans/OpenSans-Bold.ttf');}
 
+@font-face { font-family: Gentium; src: url('../fonts/gentiumbookbasic/GenBkBasR.ttf'); } 
+@font-face { font-family: Gentium; font-weight: bold; src: url('../fonts/gentiumbookbasic/GenBkBasB.ttf');}
+
+body {
+	font-family:Gentium;
+	font-size:15px;
+}
+h1, h2, h3, h4, h5, h6, .title, nav
+{
+	font-family:OpenSans;
+}
+a a:hover {
+	text-decoration:none;
+	color:#222;
+}
+.navbar-nav li {
+	border-left:1px solid #444;
+}
+.row > div {
+	padding:10px 20px;
+}
 .global-container {
 	margin:auto;
 	max-width:1199px;
-	padding:50px;
-	border: 1px solid black;
+	padding:0 50px 50px;
 }
 .page-content {
 	margin-top:50px;
-	border:1px solid black;
 	width:100%;
 }
+
+/* Sidebar */
+.sidebar {
+	border-radius:7px;
+	background:#DDD;
+	box-shadow: 2px 3px 10px #888888;
+}
+.sidebar-header {
+	font-size:1.4em;
+}
+.sidebar-item {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:5px;
+	text-align:center;
+	border-bottom:1px solid #969696;
+	letter-spacing:1.3px;
+}
+.sidebar-item a {
+	color:#000;
+}
+.sidebar-item a:hover {
+	color:#888;
+	text-decoration:none;
+}
+
+/* Body content */
